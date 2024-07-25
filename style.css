@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: mistyrose;
+
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+}
+
+.form {
+  background-color: aliceblue;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  justify-content: center;
+  padding: 20px;
+}
+
+.form > input,
+select,
+button {
+  padding: 10px;
+  border: none;
+
+  border-radius: 10px;
+}
+
+button {
+  background-color: rgb(84, 84, 228);
+  color: white;
+
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  color: black;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+#edit-delete {
+  display: flex;
+  justify-content: space-evenly;
+}
